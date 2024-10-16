@@ -15,7 +15,7 @@ const budgetModel = require('./model/myschema')
 
 
 
-let url = 'mongodb://127.0.0.1:27017/personal_budget/mybudget';
+let url = 'mongodb://127.0.0.1:27017/personal_budget';
 
 
 app.get("/budget", (req, res) => {
